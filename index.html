@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="calculator-container">
+    <div class="calculator">
+      <!-- Display section -->
+      <input type="text" id="number-input" disabled placeholder="0" />
+      <input type="text" id="result" disabled placeholder="0" />
+
+      <!-- Button grid -->
+      <div class="buttons">
+        <!-- Row 1 -->
+        <button class="clear-btn" onclick="reset()">C</button>
+        <button onclick="deleteLast()">DEL</button>
+        <button onclick="handleClickButton(this)">%</button>
+        <button onclick="handleClickButton(this)">/</button>
+
+        <!-- Row 2 -->
+        <button onclick="handleClickButton(this)">7</button>
+        <button onclick="handleClickButton(this)">8</button>
+        <button onclick="handleClickButton(this)">9</button>
+        <button onclick="handleClickButton(this)">*</button>
+
+        <!-- Row 3 -->
+        <button onclick="handleClickButton(this)">4</button>
+        <button onclick="handleClickButton(this)">5</button>
+        <button onclick="handleClickButton(this)">6</button>
+        <button onclick="handleClickButton(this)">-</button>
+
+        <!-- Row 4 -->
+        <button onclick="handleClickButton(this)">1</button>
+        <button onclick="handleClickButton(this)">2</button>
+        <button onclick="handleClickButton(this)">3</button>
+        <button onclick="handleClickButton(this)">+</button>
+
+        <!-- Row 5 -->
+        <button onclick="handleClickButton(this)">0</button>
+        <button onclick="handleClickButton(this)">.</button>
+        <button class="equal-btn" onclick="calculate()">=</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
