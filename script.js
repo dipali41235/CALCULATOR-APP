@@ -7,7 +7,7 @@ function handleClickButton(el) {
     const value = el.innerText;
 
     // Prevent multiple operators in a row
-    const operators = ['+', '-', '*', '/', '%'];
+    const operators = ['-', '+', '*', '/', '%'];
 
     const lastChar = input.value.slice(-1);
 
@@ -56,3 +56,4 @@ function calculate() {
         result.value = 'Error';
     }
 }
+
