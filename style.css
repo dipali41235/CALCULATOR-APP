@@ -23,7 +23,7 @@ body {
   
 }
 
-/* Calculator box */
+
 .calculator {
   background-color: #ffffff;
   padding: 24px;
@@ -111,6 +111,7 @@ button:nth-child(2):hover {
     padding: 12px;
   }
 }
+
 
 
 
