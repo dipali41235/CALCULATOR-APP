@@ -2,7 +2,7 @@
 const input = document.getElementById('number-input');
 const result = document.getElementById('result');
 
-// Handle button click
+
 function handleClickButton(el) {
     const value = el.innerText;
 
@@ -56,5 +56,6 @@ function calculate() {
         result.value = 'Error';
     }
 }
+
 
 
