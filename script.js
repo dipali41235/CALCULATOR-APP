@@ -19,7 +19,7 @@ function handleClickButton(el) {
         if (operators.includes(lastChar)) return;
     }
 
-    // Only one dot per number section
+    
     if (value === '.') {
         const parts = input.value.split(/[\+\-\*\/]/);
         const lastPart = parts[parts.length - 1];
@@ -56,6 +56,7 @@ function calculate() {
         result.value = 'Error';
     }
 }
+
 
 
 
