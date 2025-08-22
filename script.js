@@ -15,7 +15,7 @@ function handleClickButton(el) {
         
         if (input.value === '') return;
 
-        // Don't allow two operators in a row
+        
         if (operators.includes(lastChar)) return;
     }
 
@@ -56,6 +56,7 @@ function calculate() {
         result.value = 'Error';
     }
 }
+
 
 
 
