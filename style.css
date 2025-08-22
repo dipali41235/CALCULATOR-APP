@@ -71,7 +71,7 @@ button:hover {
   background-color: #d5d5d5;
 }
 
-/* Operator buttons (+ - * / %) */
+
 button:nth-child(4n),
 button:nth-child(3),
 button:nth-child(2) {
@@ -110,6 +110,7 @@ button:nth-child(2):hover {
     padding: 12px;
   }
 }
+
 
 
 
