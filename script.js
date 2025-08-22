@@ -1,4 +1,4 @@
-// Get display and result input fields
+
 const input = document.getElementById('number-input');
 const result = document.getElementById('result');
 
@@ -56,4 +56,5 @@ function calculate() {
         result.value = 'Error';
     }
 }
+
 
