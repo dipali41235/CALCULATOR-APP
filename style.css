@@ -21,7 +21,7 @@ body {
 .calculator-container {
   width: 100%;
   max-width: 400px;
-  padding: 20px;
+  
 }
 
 /* Calculator box */
@@ -112,5 +112,6 @@ button:nth-child(2):hover {
     padding: 12px;
   }
 }
+
 
 
