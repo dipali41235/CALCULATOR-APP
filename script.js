@@ -35,7 +35,6 @@ function reset() {
     result.value = '';
 }
 
-// Delete the last character
 function deleteLast() {
     input.value = input.value.slice(0, -1);
 }
@@ -56,6 +55,7 @@ function calculate() {
         result.value = 'Error';
     }
 }
+
 
 
 
