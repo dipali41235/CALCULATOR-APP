@@ -39,7 +39,6 @@ function deleteLast() {
     input.value = input.value.slice(0, -1);
 }
 
-// Final calculation
 function calculate() {
     try {
         let expression = input.value;
@@ -55,6 +54,7 @@ function calculate() {
         result.value = 'Error';
     }
 }
+
 
 
 
