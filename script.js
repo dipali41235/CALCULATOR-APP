@@ -29,7 +29,7 @@ function handleClickButton(el) {
     input.value += value;
 }
 
-// Handle clear button
+
 function reset() {
     input.value = '';
     result.value = '';
@@ -56,6 +56,7 @@ function calculate() {
         result.value = 'Error';
     }
 }
+
 
 
 
