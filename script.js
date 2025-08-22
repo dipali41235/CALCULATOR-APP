@@ -45,7 +45,6 @@ function calculate() {
 
         expression = expression.replace(/%/g, '/100');
 
-        // Evaluate safely
         const ans = Function('"use strict"; return (' + expression + ')')();
 
         result.value = ans;
@@ -53,6 +52,7 @@ function calculate() {
         result.value = 'Error';
     }
 }
+
 
 
 
