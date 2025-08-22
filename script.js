@@ -43,7 +43,6 @@ function calculate() {
     try {
         let expression = input.value;
 
-        // Convert % into actual percentage logic
         expression = expression.replace(/%/g, '/100');
 
         // Evaluate safely
@@ -54,6 +53,7 @@ function calculate() {
         result.value = 'Error';
     }
 }
+
 
 
 
