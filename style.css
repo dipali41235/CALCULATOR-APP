@@ -85,7 +85,7 @@ button:nth-child(2):hover {
   background-color: #546e7a;
 }
 
-/* Equals button */
+
 .equal-btn {
   grid-column: span 2;
   background-color: #7b827c;
@@ -111,6 +111,7 @@ button:nth-child(2):hover {
     padding: 12px;
   }
 }
+
 
 
 
