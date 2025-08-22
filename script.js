@@ -12,7 +12,7 @@ function handleClickButton(el) {
     const lastChar = input.value.slice(-1);
 
     if (operators.includes(value)) {
-        // Don't allow operator at beginning
+        
         if (input.value === '') return;
 
         // Don't allow two operators in a row
@@ -56,6 +56,7 @@ function calculate() {
         result.value = 'Error';
     }
 }
+
 
 
 
